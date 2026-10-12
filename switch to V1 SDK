@@ -1,0 +1,6 @@
+But because you're following a course...
+There are actually two valid choices.
+If you want to follow the instructor exactly, install the old v1 SDK:
+
+pip uninstall mcp
+pip install "mcp>=1.28,<2"

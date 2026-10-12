@@ -1,0 +1,19 @@
+[project]
+name = "mcp-server-deepdive-functionality"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "crr5585", email = "zaeem.mohammed@TUHH.de" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "mcp[cli]==2.2.0",
+]
+
+[project.scripts]
+mcp-server-deepdive-functionality = "mcp_server_deepdive_functionality:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
